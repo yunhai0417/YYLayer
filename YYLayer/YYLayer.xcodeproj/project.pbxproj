@@ -94,11 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				6025A3A1205FBD8F00A84938 /* ignore */,
-				6025A375205FBD6200A84938 /* Main.storyboard */,
 				6025A378205FBD6200A84938 /* Assets.xcassets */,
-				6025A37A205FBD6200A84938 /* LaunchScreen.storyboard */,
-				6025A37D205FBD6200A84938 /* Info.plist */,
-				6025A37E205FBD6200A84938 /* main.m */,
 				6025A3A2205FBDC900A84938 /* YYViewController.h */,
 				6025A3A3205FBDC900A84938 /* YYViewController.m */,
 			);
@@ -108,6 +104,10 @@
 		6025A3A1205FBD8F00A84938 /* ignore */ = {
 			isa = PBXGroup;
 			children = (
+				6025A37E205FBD6200A84938 /* main.m */,
+				6025A37A205FBD6200A84938 /* LaunchScreen.storyboard */,
+				6025A375205FBD6200A84938 /* Main.storyboard */,
+				6025A37D205FBD6200A84938 /* Info.plist */,
 				6025A36F205FBD6200A84938 /* AppDelegate.h */,
 				6025A370205FBD6200A84938 /* AppDelegate.m */,
 			);
