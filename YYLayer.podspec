@@ -1,23 +1,23 @@
 
 Pod::Spec.new do |s|
-  s.name         = "YYLayer"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of YYLayer."
-  s.homepage     = "https://github.com/yunhai0417/YYLayer.git"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  # s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "yunhai0417" => "363067575@qq.com" }
-  # Or just: s.author    = "yunhai0417"
-  # s.authors            = { "yunhai0417" => "363067575@qq.com" }
-  # s.social_media_url   = "https://github.com/yunhai0417"
-  s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/yunhai0417/YYLayer.git" }
-  s.source_files  = "YYLayer/*.{h,m}"
-  # s.exclude_files = "YYLayer/**/*AppDelegate.{h,m}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*", "YYLayer/**/main.m", "YYLayer/**/*Tests.m"
-  
-	s.resources = "Resources","YYLayer/**/*.{strings,xcassets,storyboard,xib,plist}"
+  s.name = 'YYLayer'
+  s.version = '1.0.0'
+  s.ios.deployment_target = '9.0'
+  s.license = 'MIT'
+  s.summary = 'https://github.com/yunhai0417/YYLayer.git'
+  s.homepage = 'https://github.com/yunhai0417/YYLayer'
+  s.author = { 'yunhai0417 ' => '363067575@qq.com' }
+  s.source = { :git => 'https://github.com/rs/SDWebImage.git' }
+
+  s.description = 'This library provides a category for UIImageView with support for remote '      \
+                  'images coming from the web. It provides an UIImageView category adding web '    \
+                  'image and cache management to the Cocoa Touch framework, an asynchronous '      \
+                  'image downloader, an asynchronous memory + disk image caching with automatic '  \
+                  'cache expiration handling, a guarantee that the same URL won\'t be downloaded ' \
+                  'several times, a guarantee that bogus URLs won\'t be retried again and again, ' \
+                  'and performances!'
+
   s.requires_arc = true
 
 end
