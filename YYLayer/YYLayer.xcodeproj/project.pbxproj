@@ -12,8 +12,6 @@
 		6025A379205FBD6200A84938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6025A378205FBD6200A84938 /* Assets.xcassets */; };
 		6025A37C205FBD6200A84938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6025A37A205FBD6200A84938 /* LaunchScreen.storyboard */; };
 		6025A37F205FBD6200A84938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A37E205FBD6200A84938 /* main.m */; };
-		6025A389205FBD6200A84938 /* YYLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A388205FBD6200A84938 /* YYLayerTests.m */; };
-		6025A394205FBD6200A84938 /* YYLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A393205FBD6200A84938 /* YYLayerUITests.m */; };
 		6025A3A4205FBDC900A84938 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3A3205FBDC900A84938 /* YYViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +42,7 @@
 		6025A37D205FBD6200A84938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6025A37E205FBD6200A84938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6025A384205FBD6200A84938 /* YYLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6025A388205FBD6200A84938 /* YYLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLayerTests.m; sourceTree = "<group>"; };
-		6025A38A205FBD6200A84938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6025A38F205FBD6200A84938 /* YYLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6025A393205FBD6200A84938 /* YYLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLayerUITests.m; sourceTree = "<group>"; };
-		6025A395205FBD6300A84938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6025A3A2205FBDC900A84938 /* YYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
 		6025A3A3205FBDC900A84938 /* YYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				6025A36E205FBD6200A84938 /* YYLayer */,
-				6025A387205FBD6200A84938 /* YYLayerTests */,
-				6025A392205FBD6200A84938 /* YYLayerUITests */,
 				6025A36D205FBD6200A84938 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,24 +103,6 @@
 				6025A3A3205FBDC900A84938 /* YYViewController.m */,
 			);
 			path = YYLayer;
-			sourceTree = "<group>";
-		};
-		6025A387205FBD6200A84938 /* YYLayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				6025A388205FBD6200A84938 /* YYLayerTests.m */,
-				6025A38A205FBD6200A84938 /* Info.plist */,
-			);
-			path = YYLayerTests;
-			sourceTree = "<group>";
-		};
-		6025A392205FBD6200A84938 /* YYLayerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6025A393205FBD6200A84938 /* YYLayerUITests.m */,
-				6025A395205FBD6300A84938 /* Info.plist */,
-			);
-			path = YYLayerUITests;
 			sourceTree = "<group>";
 		};
 		6025A3A1205FBD8F00A84938 /* ignore */ = {
@@ -283,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6025A389205FBD6200A84938 /* YYLayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6025A394205FBD6200A84938 /* YYLayerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
