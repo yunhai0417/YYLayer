@@ -5,7 +5,7 @@
   s.summary = 'https://github.com/yunhai0417/YYLayer.git'
   s.homepage = 'https://github.com/yunhai0417/YYLayer'
   s.author = { 'yunhai0417 ' => '363067575@qq.com' }
-  s.source = { :git => 'https://github.com/rs/SDWebImage.git' }
+  s.source = { :git => 'https://github.com/yunhai0417/YYLayer.git' }
 
   s.description = 'This library provides a category for UIImageView with support for remote '      \
                   'images coming from the web. It provides an UIImageView category adding web '    \
