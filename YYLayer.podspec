@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "https://github.com/yunhai0417"
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/yunhai0417/YYLayer.git" :branch => "develop" }
+  s.source       = { :git => "https://github.com/yunhai0417/YYLayer.git" }
   s.source_files  = "YYLayer/*.{h,m}"
   # s.exclude_files = "YYLayer/**/*AppDelegate.{h,m}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*", "YYLayer/**/main.m", "YYLayer/**/*Tests.m"
   
