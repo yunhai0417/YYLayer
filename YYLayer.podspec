@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "YYLayer", "YYLayer/**/*.{h,m}"
-  s.exclude_files = "YYLayer/**/*AppDelegate.{h,m}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*"
+  s.exclude_files = "YYLayer/**/*AppDelegate.{h,m}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*", "YYLayer/**/main.m", "YYLayer/**/*Tests.m"
 
   # s.public_header_files = "Classes/**/*.h"
 
