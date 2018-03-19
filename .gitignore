@@ -28,6 +28,10 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## mac system files
+.DS_Store
+*.DS_Store
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -35,6 +39,10 @@ xcuserdata/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+Pods
+Podfile.lock
+Manifest.lock
+Pods/Pods.xcodeproj/project.pbxproj
 
 # Carthage
 #
