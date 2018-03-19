@@ -13,6 +13,7 @@
 		6025A37C205FBD6200A84938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6025A37A205FBD6200A84938 /* LaunchScreen.storyboard */; };
 		6025A37F205FBD6200A84938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A37E205FBD6200A84938 /* main.m */; };
 		6025A3A4205FBDC900A84938 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3A3205FBDC900A84938 /* YYViewController.m */; };
+		6025A3A7205FDE8100A84938 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6025A37D205FBD6200A84938 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +94,10 @@
 		6025A36E205FBD6200A84938 /* YYLayer */ = {
 			isa = PBXGroup;
 			children = (
+				6025A3A6205FDE5B00A84938 /* YYLayerTests */,
+				6025A3A5205FDE5B00A84938 /* YYLayerUITests */,
 				6025A3A1205FBD8F00A84938 /* ignore */,
+				6025A37D205FBD6200A84938 /* Info.plist */,
 				6025A378205FBD6200A84938 /* Assets.xcassets */,
 				6025A3A2205FBDC900A84938 /* YYViewController.h */,
 				6025A3A3205FBDC900A84938 /* YYViewController.m */,
@@ -107,12 +111,25 @@
 				6025A37E205FBD6200A84938 /* main.m */,
 				6025A37A205FBD6200A84938 /* LaunchScreen.storyboard */,
 				6025A375205FBD6200A84938 /* Main.storyboard */,
-				6025A37D205FBD6200A84938 /* Info.plist */,
 				6025A36F205FBD6200A84938 /* AppDelegate.h */,
 				6025A370205FBD6200A84938 /* AppDelegate.m */,
 			);
 			path = ignore;
 			sourceTree = "<group>";
+		};
+		6025A3A5205FDE5B00A84938 /* YYLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYLayerUITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		6025A3A6205FDE5B00A84938 /* YYLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYLayerTests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -220,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6025A3A7205FDE8100A84938 /* Info.plist in Resources */,
 				6025A37C205FBD6200A84938 /* LaunchScreen.storyboard in Resources */,
 				6025A379205FBD6200A84938 /* Assets.xcassets in Resources */,
 				6025A377205FBD6200A84938 /* Main.storyboard in Resources */,
