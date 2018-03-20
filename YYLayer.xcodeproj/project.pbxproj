@@ -105,7 +105,6 @@
 				608D02852060AC5F0018667A /* Resources */,
 				6025A3B7205FFBDE00A84938 /* ViewController.h */,
 				6025A3B8205FFBDE00A84938 /* ViewController.m */,
-				6025A3C2205FFBDE00A84938 /* Info.plist */,
 			);
 			path = YYLayer;
 			sourceTree = "<group>";
@@ -132,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				6025A3BD205FFBDE00A84938 /* Assets.xcassets */,
-				6025A3BA205FFBDE00A84938 /* Main.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -140,9 +138,11 @@
 		608D02862060AC890018667A /* ignore */ = {
 			isa = PBXGroup;
 			children = (
+				6025A3C2205FFBDE00A84938 /* Info.plist */,
 				6025A3C3205FFBDE00A84938 /* main.m */,
 				6025A3BF205FFBDE00A84938 /* LaunchScreen.storyboard */,
 				6025A3B4205FFBDE00A84938 /* AppDelegate.h */,
+				6025A3BA205FFBDE00A84938 /* Main.storyboard */,
 				6025A3B5205FFBDE00A84938 /* AppDelegate.m */,
 			);
 			path = ignore;
@@ -448,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCGUEX6SZE;
-				INFOPLIST_FILE = YYLayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YYLayer/ignore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunhai.YYLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,7 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YCGUEX6SZE;
-				INFOPLIST_FILE = YYLayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YYLayer/ignore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunhai.YYLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
