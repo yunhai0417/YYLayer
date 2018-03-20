@@ -1,3 +1,5 @@
+  Pod::Spec.new do |s|
+
   s.name = "YYLayer"
   s.version = "1.0.0"
   s.ios.deployment_target = "9.0"
@@ -19,3 +21,5 @@
   s.source_files       = "YYLayer/**/*.{m,h}"
   s.exclude_files      = "YYLayer/**/*AppDelegate.{m,h}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*"
   s.resources          = "Resources", "YYLayer/**/*.{strings,xcassets,storyboard,xib,plist}"
+
+  end
