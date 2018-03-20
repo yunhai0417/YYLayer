@@ -19,7 +19,7 @@
 
   s.requires_arc = true
   s.source_files       = "YYLayer/**/*.{m,h}"
-  s.exclude_files      = "YYLayer/**/*AppDelegate.{m,h}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*"
+  s.exclude_files      = "YYLayer/**/*AppDelegate.{m,h}", "YYLayer/**/LaunchScreen.storyboard", "YYLayer/**/LaunchScreen.*", "YYLayer/**/main.*"
   s.resources          = "Resources", "YYLayer/**/*.{strings,xcassets,storyboard,xib,plist}"
 
   end
