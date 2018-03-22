@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADD37A2A94096770B7B7BA9 /* Pods_YYLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853E9371FB005954EB226C67 /* Pods_YYLayer.framework */; };
 		6025A3B6205FFBDE00A84938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3B5205FFBDE00A84938 /* AppDelegate.m */; };
 		6025A3B9205FFBDE00A84938 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3B8205FFBDE00A84938 /* ViewController.m */; };
 		6025A3BC205FFBDE00A84938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6025A3BA205FFBDE00A84938 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		6025A3C4205FFBDE00A84938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3C3205FFBDE00A84938 /* main.m */; };
 		6025A3CE205FFBDE00A84938 /* YYLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3CD205FFBDE00A84938 /* YYLayerTests.m */; };
 		6025A3D9205FFBDE00A84938 /* YYLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6025A3D8205FFBDE00A84938 /* YYLayerUITests.m */; };
+		609C34862063C88A00A1A051 /* YYOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609C34852063C88A00A1A051 /* YYOneViewController.m */; };
+		609C34882063CBF100A1A051 /* YYLayerScheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609C34872063CBF100A1A051 /* YYLayerScheme.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02303345D761EC67C8BC9CE9 /* Pods-YYLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLayer/Pods-YYLayer.release.xcconfig"; sourceTree = "<group>"; };
 		6025A3B1205FFBDE00A84938 /* YYLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6025A3B4205FFBDE00A84938 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6025A3B5205FFBDE00A84938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		6025A3D4205FFBDE00A84938 /* YYLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6025A3D8205FFBDE00A84938 /* YYLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLayerUITests.m; sourceTree = "<group>"; };
 		6025A3DA205FFBDF00A84938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609C34842063C88A00A1A051 /* YYOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYOneViewController.h; sourceTree = "<group>"; };
+		609C34852063C88A00A1A051 /* YYOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYOneViewController.m; sourceTree = "<group>"; };
+		609C34872063CBF100A1A051 /* YYLayerScheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YYLayerScheme.plist; sourceTree = "<group>"; };
+		853E9371FB005954EB226C67 /* Pods_YYLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F237DE1246A7222628C2C /* Pods-YYLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYLayer/Pods-YYLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADD37A2A94096770B7B7BA9 /* Pods_YYLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				6025A3CC205FFBDE00A84938 /* YYLayerTests */,
 				6025A3D7205FFBDE00A84938 /* YYLayerUITests */,
 				6025A3B2205FFBDE00A84938 /* Products */,
+				72C064E3F6E77AD6904DD387 /* Pods */,
+				815E4F850CFDDBC1A441648F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +113,9 @@
 		6025A3B3205FFBDE00A84938 /* YYLayer */ = {
 			isa = PBXGroup;
 			children = (
+				609C34832063C86D00A1A051 /* Core */,
 				608D02862060AC890018667A /* ignore */,
 				608D02852060AC5F0018667A /* Resources */,
-				6025A3B7205FFBDE00A84938 /* ViewController.h */,
-				6025A3B8205FFBDE00A84938 /* ViewController.m */,
 			);
 			path = YYLayer;
 			sourceTree = "<group>";
@@ -130,6 +141,7 @@
 		608D02852060AC5F0018667A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				609C34872063CBF100A1A051 /* YYLayerScheme.plist */,
 				6025A3BD205FFBDE00A84938 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -144,8 +156,36 @@
 				6025A3B4205FFBDE00A84938 /* AppDelegate.h */,
 				6025A3BA205FFBDE00A84938 /* Main.storyboard */,
 				6025A3B5205FFBDE00A84938 /* AppDelegate.m */,
+				6025A3B7205FFBDE00A84938 /* ViewController.h */,
+				6025A3B8205FFBDE00A84938 /* ViewController.m */,
 			);
 			path = ignore;
+			sourceTree = "<group>";
+		};
+		609C34832063C86D00A1A051 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				609C34842063C88A00A1A051 /* YYOneViewController.h */,
+				609C34852063C88A00A1A051 /* YYOneViewController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		72C064E3F6E77AD6904DD387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B28F237DE1246A7222628C2C /* Pods-YYLayer.debug.xcconfig */,
+				02303345D761EC67C8BC9CE9 /* Pods-YYLayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		815E4F850CFDDBC1A441648F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853E9371FB005954EB226C67 /* Pods_YYLayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6025A3DD205FFBDF00A84938 /* Build configuration list for PBXNativeTarget "YYLayer" */;
 			buildPhases = (
+				E31BF729C9550FA3765183D4 /* [CP] Check Pods Manifest.lock */,
 				6025A3AD205FFBDE00A84938 /* Sources */,
 				6025A3AE205FFBDE00A84938 /* Frameworks */,
 				6025A3AF205FFBDE00A84938 /* Resources */,
+				E8D41295E37611B24B03005D /* [CP] Embed Pods Frameworks */,
+				DF483B8F4AD136E8EFB04EB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6025A3C1205FFBDE00A84938 /* LaunchScreen.storyboard in Resources */,
+				609C34882063CBF100A1A051 /* YYLayerScheme.plist in Resources */,
 				6025A3BE205FFBDE00A84938 /* Assets.xcassets in Resources */,
 				6025A3BC205FFBDE00A84938 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +320,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DF483B8F4AD136E8EFB04EB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYLayer/Pods-YYLayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31BF729C9550FA3765183D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D41295E37611B24B03005D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YYLayer/Pods-YYLayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YHRouter/YHRouter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHRouter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYLayer/Pods-YYLayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6025A3AD205FFBDE00A84938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +382,7 @@
 				6025A3B9205FFBDE00A84938 /* ViewController.m in Sources */,
 				6025A3C4205FFBDE00A84938 /* main.m in Sources */,
 				6025A3B6205FFBDE00A84938 /* AppDelegate.m in Sources */,
+				609C34862063C88A00A1A051 /* YYOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +543,7 @@
 		};
 		6025A3DE205FFBDF00A84938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28F237DE1246A7222628C2C /* Pods-YYLayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +558,7 @@
 		};
 		6025A3DF205FFBDF00A84938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02303345D761EC67C8BC9CE9 /* Pods-YYLayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
