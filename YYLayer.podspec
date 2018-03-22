@@ -22,4 +22,6 @@
   s.exclude_files      = "YYLayer/ignore"
   s.resources          = "Resources", "YYLayer/**/*.{strings,xcassets,storyboard,xib,plist}"
 
+  s.dependency 'YHRouter'
+
   end
